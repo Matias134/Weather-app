@@ -1,21 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
-    <title>API tiempo</title>
+    <title>El tiempo</title>
 </head>
 <body>
-    <h1>Aplicacion del tiempo</h1>
+
     <div class="container-input">
-        <form id="form" method="GET">
-            <input id="input-city" type="text" placeholder="Escriba una ciudad">
+        <form>
+            <input type="text">
         </form>
+        <div class="checkbox">
+            <img src="img/circle-half-stroke-solid.svg" alt="">
+        </div>
     </div>
-    <div class="container-info">
+
+    <div class="container-weather-current">
+        <div class="weather-current-day">
+            <div class="name-city"><b>Valdivia</b></div>
+            <div class="container-info">
+                <div class="description">Soleado</div>
+                <div class="icon">A</div>
+                <div class="humidity">21%</div>
+            </div>
+            <div class="temp">34°</div>
+        </div>
+        <div class="weather-current-hour">
+            s
+        </div>
     </div>
-    <script src="js/main.js"></script>
+
+    <div class="weather-daily">
+        <div class="carousel-of-days">
+            
+            <div class="container-day">
+                <div class="city-icon">
+                    <span>Sabado</span>
+                    <!-- <img src="" alt=""> -->
+                    A
+                </div>
+                <div class="info-day">
+                    <div class="temp-humidity">
+                        <div>20°<img src="img/temperature-half-solid.svg"></div>
+                        <div>14%<img src="img/droplet-solid.svg" alt=""> </div>
+                    </div>
+                    <span>description</span>
+                </div>
+            </div>
+
+            <div class="container-day">
+                <div class="city-icon">
+                    <span>Sabado</span>
+                    <!-- <img src="" alt=""> -->
+                    A
+                </div>
+                <div class="info-day">
+                    <div class="temp-humidity">
+                        <div>20°<img src="img/temperature-half-solid.svg"></div>
+                        <div>14%<img src="img/droplet-solid.svg" alt=""> </div>
+                    </div>
+                    <span>description</span>
+                </div>
+            </div>
+
+            <div class="container-day">
+                <div class="city-icon">
+                    <span>Sabado</span>
+                    <!-- <img src="" alt=""> -->
+                    A
+                </div>
+                <div class="info-day">
+                    <div class="temp-humidity">
+                        <div>20°<img src="img/temperature-half-solid.svg"></div>
+                        <div>14%<img src="img/droplet-solid.svg" alt=""> </div>
+                    </div>
+                    <span>description</span>
+                </div>
+            </div>
+
+            <div class="container-day">
+                <div class="city-icon">
+                    <span>Sabado</span>
+                    <!-- <img src="" alt=""> -->
+                    A
+                </div>
+                <div class="info-day">
+                    <div class="temp-humidity">
+                        <div>20°<img src="img/temperature-half-solid.svg"></div>
+                        <div>14%<img src="img/droplet-solid.svg" alt=""> </div>
+                    </div>
+                    <span>description</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 </html>
