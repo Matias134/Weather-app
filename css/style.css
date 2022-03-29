@@ -148,6 +148,7 @@ body.dark-mode {
 .error {
   text-align: center;
   padding-top: 20px;
+  text-transform: none;
 }
 .carousel-of-days {
   width: 90%;
